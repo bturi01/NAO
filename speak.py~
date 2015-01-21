@@ -1,0 +1,4 @@
+from naoqi import ALProxy
+tts = ALProxy("ALTextToSpeech","<IP of robot>", 9559)
+tts.say("Hellow World!")
+
