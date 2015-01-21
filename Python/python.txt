@@ -1,0 +1,25 @@
+README introduction to Python
+
+Before you begin, please make sure to have python on your system. Most computers come with it, especially if it is a unix distribution like Linux or a Mac. To check if you currently have python installed, open the terminal or command prompt and simple type "Python" or look in your C:\ drive for the folder. This should bring up some of the information about the current version you have running on your computer.
+Here is a link on how to download Python onto your system: (Note: I suggest downloading Python 2.7.x as currently it is the most supported (and what I think NAO runs on). The newest version in Python 3.3 - which I would download only if you think you really want to know Python well as it is the future of development.
+You can have both versions on your computer and can write using either version.)
+
+https://wiki.python.org/moin/BeginnersGuide/Download
+
+At this point, if you haven't quite figured out, you might be asking, "What did I just install on my computer?" What you now have is the python programming language compiler, a sample GUI editor and command prompt. If you have any past experience with programming- it is very similar to other languages. You can run programs either in a terminal/command prompt environment or a GUI environment (personally I like using the terminal environment as much as possible, but it is up to personal preference. Python came with the GUI IDLE, but there are several other GUIs out there including PyCharm IDE or Pythonwin. Browse around and choose whatever environment suits you best). The environments given to you are what are called "interpretors". Essentially they run programs line by line as you type them in. You can get it to run multiple lines at once, but primarily it is used only line by line style (like I did when I first made NAO speak). However, primarily, you write python programs in your favorite text editor. Popular choices include VIM, Notepad++, or Sublime, but you can write it in Text Edit or regular Notepad. All that is required is that when you finish writing you file, much like an HTML website, you just save it with the .py extention. For example, if I wrote the python program and I would like to entitle it "HelloWorld", all I have to do is save it was "HelloWorld.py". Unlike Java that requires you to have specific naming schemes based on how you do your classes, the fact that Python is a scripting language allows you to save it with whatever name you prefer as well.
+
+Now that you have a better sense of Python - let's get to some programming. Below is a link to go to a good tutorial on Python:
+
+https://docs.python.org/2/tutorial/introduction.html
+
+One of the awesome things about python is that there is a huge community of developers. With some simple google searches, you can find a ton of information and "how-tos".
+Let's right that inital "hello world!" application shall we?
+
+HELLO WORLD in Python:
+First open your text editor
+Type: 
+  print "Hello World!"
+Save as "helloworld.py"
+Open the terminal, IDLE or python execution environment. If you are doing it in the terminal or command prompt, go to the directory in which it is saved. Type "python helloworld.py" and it should run. If you are doing it in IDLE, from the file menu, click open and find your file. It should come up - press F5 or Run to run your program. If you are doing it straight from the interactive environment type "execfile('[directory]/helloworld.py')" and it should run as well.
+
+Begin congradulatory dance because you just ran your first python program. You are on your way to Haxxor king/queen. The goal of this guide was to get you started on how to write programs. I am not really into writing "how-to" programming books, so from here on out, this guide will leave you to yourself. Read tutorials, look online. There are tons of programs out there to just copy and paste and learn about. Ask people as well if you have any questions. Rarely is there a person that won't help!
