@@ -1,0 +1,14 @@
+How to use python with NAO robot:
+
+Documentation website: http://doc.aldebaran.com/1-14/dev/python/examples.html#python-examples
+
+1. Upload the script on the robot, for instance to /home/nao/reacting_to_events.py, then edit the /home/nao/naoqi/preferences/autoload.ini file to have:
+
+[python]
+/home/nao/reacting_to_events.py
+
+2. Use the Python Interpretor
+
+  i) Type Python
+  ii)Type in script line by line
+
